@@ -118,7 +118,7 @@ export default function Home() {
     // ***provider, tokenContract, marketContract, data for our marketItems***
 
     const provider = new ethers.providers.JsonRpcProvider(
-      "https://rpc-mumbai.maticvigil.com"
+      "https://speedy-nodes-nyc.moralis.io/e4727e48ab5cce3dd0141b99/polygon/mumbai"
     );
     const tokenContract = new ethers.Contract(nftaddress, NFT.abi, provider);
     const marketContract = new ethers.Contract(
