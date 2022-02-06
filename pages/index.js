@@ -118,7 +118,7 @@ export default function Home() {
     // ***provider, tokenContract, marketContract, data for our marketItems***
 
     const provider = new ethers.providers.JsonRpcProvider(
-      "https://rpc-mumbai.maticvigil.com"
+      "https://matic-testnet-archive-rpc.bwarelabs.com"
     );
     const tokenContract = new ethers.Contract(nftaddress, NFT.abi, provider);
     const marketContract = new ethers.Contract(
